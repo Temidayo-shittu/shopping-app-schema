@@ -43,8 +43,9 @@ Based on the requirements analysis, the following schema can be designed:
    password: string
 }
 
-### Items Collection:
+```
 
+### Items Collection:
 ```
 {
    _id: ObjectId,
@@ -53,9 +54,9 @@ Based on the requirements analysis, the following schema can be designed:
    price: number
 }
 
+```
 
 ### Cart Collection:
-
 ```
 {
    _id: ObjectId,
@@ -69,10 +70,11 @@ Based on the requirements analysis, the following schema can be designed:
    totalPrice: number
 }
 
+```
+
 ### Orders Collection:
 
 ```
-
 {
    _id: ObjectId,
    customerId: ObjectId,
@@ -87,6 +89,8 @@ Based on the requirements analysis, the following schema can be designed:
    orderDate: date,
    deliveryAddress: string
 }
+
+```
 
 ## API Endpoints
 
